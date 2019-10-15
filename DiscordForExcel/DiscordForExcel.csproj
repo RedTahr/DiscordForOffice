@@ -236,8 +236,17 @@
     <ManifestKeyFile>DiscordForExcel_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D4F3F3EAB188FDF9EEFE7C2A7687FD3D81821D83</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>1F646884393DD3D8D0809F194D1737956976DDFA</ManifestCertificateThumbprint>
   </PropertyGroup>
+  <!--<PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DiscordForExcel_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D4F3F3EAB188FDF9EEFE7C2A7687FD3D81821D83</ManifestCertificateThumbprint>
+  </PropertyGroup>-->
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->

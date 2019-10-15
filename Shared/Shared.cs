@@ -1,4 +1,4 @@
-﻿//using DiscordRPC;
+﻿using DiscordRPC;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -45,6 +45,9 @@ namespace Shared
         {
             int version = Process.GetCurrentProcess().MainModule.FileVersionInfo.ProductMajorPart;
             Debug.WriteLine(ObjectDumper.Dump(Process.GetCurrentProcess().MainModule.FileVersionInfo));
+            // ProductBuildPart:
+            // 10730 Excel 2019
+            // 11328 Excel 365
             if (OfficeVersions.ContainsKey(version))
             {
                 return OfficeVersions[version];
@@ -65,19 +68,19 @@ namespace Shared
             }
         }
 
-        //public static RichPresence getNewPresence(string type)
-        //{
-        //    return new RichPresence()
-        //    {
-        //        Details = getString("noFile"),
-        //        State = getString("welcome"),
-        //        Assets = new Assets()
-        //        {
-        //            LargeImageKey = type + "_welcome",
-        //            LargeImageText = getString(type) + " " + getVersion(),
-        //            SmallImageKey = type
-        //        }
-        //    };
-        //}
+        public static RichPresence getNewPresence(string type)
+        {
+            return new RichPresence()
+            {
+                Details = getString("noFile"),
+                State = getString("welcome"),
+                Assets = new Assets()
+                {
+                    LargeImageKey = type + "_welcome",
+                    LargeImageText = getString(type) + " " + getVersion(),
+                    SmallImageKey = type
+                }
+            };
+        }
     }
 }
