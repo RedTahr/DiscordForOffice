@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordForPowerPoint", "DiscordForPowerPoint\DiscordForPowerPoint.csproj", "{8F6EAF0E-C731-4D94-85A2-DF6BD6F671F4}"
 EndProject
@@ -19,6 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordForOutlook", "Discor
 	ProjectSection(ProjectDependencies) = postProject
 		{3FFB6368-18CB-45ED-A36D-2CD8593382CB} = {3FFB6368-18CB-45ED-A36D-2CD8593382CB}
 		{819D20D6-8D88-45C1-A4D2-AA21F10ABD19} = {819D20D6-8D88-45C1-A4D2-AA21F10ABD19}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests\UnitTests.csproj", "{42A3A21B-57A0-4484-BE04-646B65B614FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF768F7C-337C-4132-B050-D4519790D24F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
 Global
@@ -160,6 +167,24 @@ Global
 		{02B86A9E-53DA-428D-89FA-014BCD1CC26E}.Release|x64.Build.0 = Release|Any CPU
 		{02B86A9E-53DA-428D-89FA-014BCD1CC26E}.Release|x86.ActiveCfg = Release|Any CPU
 		{02B86A9E-53DA-428D-89FA-014BCD1CC26E}.Release|x86.Build.0 = Release|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug Unity|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug Unity|Any CPU.Build.0 = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug Unity|x64.ActiveCfg = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug Unity|x64.Build.0 = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug Unity|x86.ActiveCfg = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug Unity|x86.Build.0 = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug|x64.Build.0 = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Debug|x86.Build.0 = Debug|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Release|x64.ActiveCfg = Release|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Release|x64.Build.0 = Release|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{42A3A21B-57A0-4484-BE04-646B65B614FD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

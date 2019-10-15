@@ -1,4 +1,4 @@
-﻿using DiscordRPC;
+﻿//using DiscordRPC;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -65,19 +65,19 @@ namespace Shared
             }
         }
 
-        public static RichPresence getNewPresence(string type)
-        {
-            return new RichPresence()
-            {
-                Details = getString("noFile"),
-                State = getString("welcome"),
-                Assets = new Assets()
-                {
-                    LargeImageKey = type + "_welcome",
-                    LargeImageText = getString(type) + " " + getVersion(),
-                    SmallImageKey = type
-                }
-            };
-        }
+        //public static RichPresence getNewPresence(string type)
+        //{
+        //    return new RichPresence()
+        //    {
+        //        Details = getString("noFile"),
+        //        State = getString("welcome"),
+        //        Assets = new Assets()
+        //        {
+        //            LargeImageKey = type + "_welcome",
+        //            LargeImageText = getString(type) + " " + getVersion(),
+        //            SmallImageKey = type
+        //        }
+        //    };
+        //}
     }
 }
